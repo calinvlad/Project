@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project Name</title>
+    <link href="https://fonts.googleapis.com/css?family=Forum|Roboto:100,300,400,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    
+    <header class="header relative">
+        <svg class="hero__logo about-hero__white absolute pointer svg" viewBox="0 0 144 144" id="logo-2">
+            <use xlink:href="img/home/AforC-sm.svg#AforC-sm"></use>
+        </svg>
+        <svg class="hero__menu about-hero__white absolute pointer svg" viewBox="0 0 512 512" id="menu-2">
+            <use xlink:href="img/home/menu.svg#menu"></use>
+        </svg>
+        <p>Hello from header</p>
+    </header> 
+    <!-- HERE STARTS THE ABOUT-hero PAGE -->
+    <section class="about-hero relative" style="background-image: url(img/us/city.jpg)" >
+        <div class="about-hero__item about-hero__item--1 relative">
+            <a href="/">
+                <svg class="about-hero__logo svg--white pointer absolute" viewBox="0 0 144 144" id="logo">
+                    <use xlink:href="img/home/AforC-sm.svg#AforC-sm"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="about-hero__item about-hero__item--2 relative">
+            <svg class="about-hero__menu svg--white absolute pointer" viewBox="0 0 512 512" id="menu">
+                <use xlink:href="img/home/menu.svg#menu"></use>
+            </svg>
+        </div>
+        <div class="about-hero__item about-hero__item--3 relative">
+            <img src="img/us/hero-paint.png" alt="" class="about-hero__img absolute" id="paintAnimation">
+            <h1 class="about-hero__title absolute text--center" id="titleAnimation">
+                WE ARE GRAD YOU DECIDE TO STICK AROUND A LITTLE MORE
+            </h1> 
+        </div>
+    </section>
+
+    <section class="about-us relative">
+        <div class="trigger trigger--upper absolute" id="titleShow"></div>
+        <!-- <div id="scrollStart" class="trigger trigger--uppest absolute"></div> -->
+        <figure class="about-us__item about-us__item--1 relative">
+            <img src="img/us/design.gif" alt="" class="about-us__item--img  absolute">
+        </figure>
+        <div class="about-us__item about-us__item--2 relative">
+            <!-- <div id="scrollStop" class="trigger trigger--lowest absolute"></div> -->
+            <div class="about-us__item--2-box relative">
+                <div class="about-us__title--box relative">
+                    <h3 class="about-us__title absolute" id="title-1">
+                        ANDREEA DRUMARIU
+                    </h3>
+                </div>
+            </div>
+            <div class="pop" id="titleShow-2"></div>
+            <div class="about-us__item--2-box relative" id="style">
+                <p class="about-us__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="about-us__paragraph">
+                    dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="about-us__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="about-us__paragraph">
+                    dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+        <figure class="about-us__item about-us__item--3">
+            <img src="img/us/code.gif" alt="" class="about-us__item--img">
+        </figure>
+        <div class="about-us__item about-us__item--4">
+            <div class="about-us__item--4-box relative">
+                <div class="about-us__title--box relative">
+                    <h3 class="about-us__title about-us__title--2 absolute" id="title-2">
+                        CALIN VLAD
+                    </h3>
+                </div>
+                
+            </div>
+            <div class="about-us__item--4-box relative">
+                <p class="about-us__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="about-us__paragraph">
+                    dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="about-us__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="about-us__paragraph">
+                    dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-contact">
+        <div class="about-contact__item about-contact__item--1">
+            <img src="img/us/about-contact.png" alt="" class="about-contact__img">
+        </div>
+        <div class="about-contact__item about-contact__item--2">
+            <div class="about-contact__item--2-title text--center">
+                <h1 class="about-contact__title">
+                    IF YOU WOULD LIKE TO WORK WITH US, WRITE A MESSAGE
+                </h1>
+                <h1 class="about-contact__title">
+                    AND LET'S BRING YOUR BUSINESS TO LIFE
+                </h1>
+            </div>
+            <form action="POST" class="about-contact__item--2-form relative">
+                <input type="text" class="about-contact__input" placeholder="NAME">
+                <input type="text" class="about-contact__input" placeholder="E-MAIL">
+                <input type="text" class="about-contact__input about-contact__textarea" placeholder="MESSAGE">
+                <button class="about-contact__button">SEND IT
+
+                    <svg class="about-contact__button--img" viewBox="0 0 60.064 60.064">
+                        <use xlink:href="img/us/paper-plane.svg#plane"></use>
+                    </svg>
+                </button>
+            </form action="POST">
+        </div>
+    </section>
+     
+    
+
+    <script src="js/about.js"></script> 
+</body>
+</html>
